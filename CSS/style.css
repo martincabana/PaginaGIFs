@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #059b6e;
+}
+
+.container {
+    text-align: center;
+}
+
+.search-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#results {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+}
+
+#results img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px;
+    object-fit: cover; 
+    max-width: 200px; /* Limita el tamaño máximo */
+    max-height: 200px; /* Limita la altura máxima */
+}
